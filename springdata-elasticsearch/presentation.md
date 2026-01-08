@@ -50,14 +50,36 @@ Powering Search with the Spring Data Programming Model
 ---
 
 ## Pros & Cons of Spring Data Elasticsearch
-✅ Pros
+✅ **Pros**
 - Familiar Spring Data model
 - Less boilerplate
 - Fast search performance
 - Scales horizontally
 
-⚠️ Cons
+⚠️ **Cons**
 - No strong ACID transactions
 - Requires cluster infra
 - Mapping can break if schema drifts
 - Debugging queries sometimes tricky
+
+---
+
+## When to Use It
+**Great for:**
+- Search bars & autocomplete
+- E-commerce search
+- Observability & logs
+- Recommendation engines
+
+**Avoid for:**
+- Core financial systems
+- Highly relational data
+- Strong consistency needs
+
+---
+
+## Summary
+- Spring Data standardizes data access
+- Elasticsearch enables fast search
+- Spring Data Elasticsearch combines both
+- Best used alongside traditional databases
