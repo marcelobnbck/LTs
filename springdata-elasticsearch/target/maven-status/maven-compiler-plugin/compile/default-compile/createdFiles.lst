@@ -1,0 +1,4 @@
+com\example\Article.class
+com\example\ElasticsearchDemoApplication.class
+com\example\AdvancedArticleSearchService.class
+com\example\ArticleRepository.class
