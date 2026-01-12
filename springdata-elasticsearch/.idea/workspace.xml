@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d0890a3c-361b-4aee-8abb-b4c6998c158e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AdvancedArticleSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ElasticsearchDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Product.java" beforeDir="false" />
