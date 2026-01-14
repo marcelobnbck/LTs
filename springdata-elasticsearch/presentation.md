@@ -40,12 +40,13 @@ Powering Search with the Spring Data Programming Model
 ---
 
 ## Comparison vs Spring Data JPA
-| Feature      | Spring Data JPA       | Spring Data Elasticsearch |
-|--------------|-----------------------|---------------------------|
-| Data Model   | Relational            | Documents                 |
-| Query Type   | SQL / Structured      | Full-text search          |
-| Transactions | Yes                   | No                        |
-| Best Use     | Business Data & Rules | Search & Analytics        |
+Feature | Spring Data Elasticsearch | Elasticsearch Java API Client
+--- | --- | ---
+Abstraction level | High (Spring Data) | Low (Elasticsearch-native)
+Programming model | Repositories & templates | Explicit request/response
+Query style | Derived, JSON DSL, template | Full manual DSL
+Productivity | Very high | Lower, more verbose
+Best use case | Spring applications | Low-level integrations
 
 ---
 
